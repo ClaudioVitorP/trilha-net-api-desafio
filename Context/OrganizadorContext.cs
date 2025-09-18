@@ -11,5 +11,6 @@ namespace TrilhaApiDesafio.Context
         }
 
         public DbSet<Tarefa> Tarefas { get; set; }
+        public object TodasAsTarefas { get; internal set; }
     }
 }
